@@ -36,6 +36,7 @@
         username: mysql_admin
         password: 1nsecure
         subnet: dbsubnet
+        db_name: userdb
         license_model: "general-public-license"
         vpc_security_groups: "{{ dbsg.group_id }}"
         multi_zone: no
